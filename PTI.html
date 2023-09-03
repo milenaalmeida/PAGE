@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Landing Page do Nutricionista</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f7f7f7;
+}
+
+header {
+background-color: #4CAF50;
+color: white;
+text-align: center;
+padding: 2rem;
+}
+
+.navbar {
+background-color: #333;
+overflow: hidden;
+}
+
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.navbar a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 2rem;
+background-color: white;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+
+.section {
+margin: 2rem 0;
+text-align: center;
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.section h2 {
+font-size: 28px;
+margin-bottom: 1rem;
+color: #333;
+}
+
+.section p {
+font-size: 18px;
+color: #555;
+}
+
+.contact-form {
+max-width: 400px;
+margin: 2rem auto;
+padding: 20px;
+background-color: #f9f9f9;
+border-radius: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.contact-form button {
+background-color: #4CAF50;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+img {
+max-width: 100%;
+height: auto;
+margin-top: 2rem;
+border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+.container {
+padding: 1rem;
+}
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Nutricionista Guilherme Adolfo</h1>
+<p>Transforme sua vida com uma alimentação equilibrada</p>
+</header>
+
+<div class="navbar">
+<a href="#">Início</a>
+<a href="#sobre">Sobre</a>
+<a href="#servicos">Serviços</a>
+<a href="#vantagens">Vantagens</a>
+<a href="#contato">Contato</a>
+</div>
+
+<div class="container">
+<section class="section" id="sobre">
+<h2>Sobre a Nutrição</h2>
+<p>A nutrição desempenha um papel fundamental em nossa saúde. Nós, nutricionistas, estamos comprometidos em ajudá-lo a alcançar seus objetivos de saúde por meio de uma alimentação saudável e equilibrada.</p>
+</section>
+
+<section class="section" id="servicos">
+<h2>Nossos Serviços</h2>
+<p>Oferecemos consultoria nutricional personalizada, elaboração de planos alimentares e acompanhamento para alcançar suas metas de saúde e bem-estar.</p>
+</section>
+
+<section class="section" id="vantagens">
+<h2>Vantagens</h2>
+<p>Trabalhamos com base em evidências científicas, fornecendo orientações nutricionais precisas e eficazes. Nosso foco é seu sucesso e bem-estar.</p>
+</section>
+
+<section class="section" id="contato">
+<h2>Contato</h2>
+<p>Entre em contato conosco para marcar uma consulta ou para obter mais informações sobre nossos serviços.</p>
+<div class="contact-form">
+<input type="text" placeholder="Nome">
+<input type="text" placeholder="E-mail">
+<textarea placeholder="Mensagem"></textarea>
+<button>Enviar</button>
+</div>
+</section>
+</div>
+
+<img src="https://www.mundoboaforma.com.br/wp-content/uploads/2014/11/alimentos-saudaveis.jpg" alt="Nutrição" style="max-width: 100%" />
+</body>
+</html>
